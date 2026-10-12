@@ -1,0 +1,15 @@
+CONTROL MEI 5.0 — Venda integrada
+
+Abra index.html para teste local ou publique TODOS os arquivos na raiz do repositório GitHub Pages.
+
+NOVO: Estoque > Vender, ou Estoque > Registrar venda com baixa automática. Uma venda cria receita bruta e saída de estoque com IDs vinculados. Estorne a movimentação no Estoque para desfazer ambos. O backup JSON mantém vínculos entre registros.
+
+Atenção: não há login, nuvem, pagamentos ou validação fiscal completa. Dados armazenados no navegador; faça backups. Não use dados reais sem testes e política de privacidade.
+
+REVISAO 5.1 (12/10/2026)
+- Corrigido reset indevido dos campos de configuracao durante atualizacoes da tela.
+- Validacao mais estrita de campos vazios na precificacao.
+- Restauracao rejeita historicos de estoque que resultariam em saldo negativo.
+- Verificacao automatizada de sintaxe e estrutura do pacote; testes de navegadores reais ainda pendentes.
+- Antes de atualizar, exporte backup JSON. Dados ficam no armazenamento local por navegador/origem.
+- NAO PUBLICAR COMO PRODUTO COMERCIAL AINDA: faltam autenticacao, seguranca, revisao fiscal e testes reais.
